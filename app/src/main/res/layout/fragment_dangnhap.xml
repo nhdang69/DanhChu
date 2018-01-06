@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/tipusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:backgroundTint="@color/colorPrimary"
+            android:textColorHint="@color/black"
+            android:hint="@string/username"
+            android:id="@+id/edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@id/tipusername"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/tippassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/black"
+            android:hint="@string/Password"
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/custom_bogoc7dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tippassword"
+        android:text="@string/dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
