@@ -9,6 +9,7 @@
     >
 
     <android.support.design.widget.TabLayout
+        app:tabTextColor="@color/black"
         android:background="@color/colorPrimary"
         android:id="@+id/tabdangkydangnhap"
         android:layout_width="match_parent"
